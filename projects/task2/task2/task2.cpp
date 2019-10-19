@@ -90,30 +90,30 @@ int main()
 	srand((unsigned)time(0));
 
 	__cilkrts_set_param("nworkers", "4");
-	//	long i;
-	//	const long mass_size = 100000;
-	//	int *mass_begin, *mass_end;
-	//	int *mass = new int[mass_size];
-	//	for(i = 0; i < mass_size; ++i)
-	//	{
-	//		mass[i] = (rand() % 25000) + 1;
-	//	}
-	//	mass_begin = mass;
-	//	mass_end = mass_begin + mass_size;
-	//	ReducerMinTest(mass, mass_size);
-	//	ReducerMaxTest(mass, mass_size);
-	//
-	//	high_resolution_clock::time_point t1 = high_resolution_clock::now();
-	//	ParallelSort(mass_begin, mass_end);
-	//
-	//	high_resolution_clock::time_point t2 = high_resolution_clock::now();
-	//
-	//	duration<double> duration = (t2 - t1);
-	//	printf("Duration is: %f seconds \n\n" , duration.count());
-	//
-	//	ReducerMinTest(mass, mass_size);
-	//	ReducerMaxTest(mass, mass_size);
-	//	delete[]mass;
+	long i;
+	const long mass_size = 10000;
+	int *mass_begin, *mass_end;
+	int *mass = new int[mass_size];
+	for(i = 0; i < mass_size; ++i)
+	{
+		mass[i] = (rand() % 25000) + 1;
+	}
+	mass_begin = mass;
+	mass_end = mass_begin + mass_size;
+	ReducerMinTest(mass, mass_size);
+	ReducerMaxTest(mass, mass_size);
+	
+	high_resolution_clock::time_point t1 = high_resolution_clock::now();
+	ParallelSort(mass_begin, mass_end);
+	
+	high_resolution_clock::time_point t2 = high_resolution_clock::now();
+	
+	duration<double> duration = (t2 - t1);
+	printf("Duration is: %f seconds \n\n" , duration.count());
+	
+	ReducerMinTest(mass, mass_size);
+	ReducerMaxTest(mass, mass_size);
+	delete[]mass;
 
 	CompareForAndCilk_For(10);
 	CompareForAndCilk_For(50);
