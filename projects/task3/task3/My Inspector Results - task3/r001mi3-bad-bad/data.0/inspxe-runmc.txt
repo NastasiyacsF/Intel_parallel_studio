@@ -1,0 +1,30 @@
+
+=== Start: [2019/10/28 23:08:01] === 
+Analysis started...
+Result file: F:\Intel_parallel_studio\projects\task3\task3\My Inspector Results - task3\r001mi3\r001mi3.inspxe 
+Analysis started for F:\Intel_parallel_studio\projects\task3\x64\Debug\task3.exe (pid = 10288) 
+Loaded module: F:\Intel_parallel_studio\projects\task3\x64\Debug\task3.exe, address range [0x7ff74e770000-0x7ff74e787fff] 
+Loaded module: C:\Program Files (x86)\IntelSWTools\Inspector 2019\bin64\dnclrprof.dll, address range [0x7ffa93b00000-0x7ffa93b4dfff], minimal analysis 
+Loaded module: C:\Windows\System32\bcryptPrimitives.dll, address range [0x7ffaa9ef0000-0x7ffaa9f59fff], minimal analysis 
+Loaded module: C:\Windows\System32\gdi32full.dll, address range [0x7ffaaa6f0000-0x7ffaaa871fff], minimal analysis 
+Loaded module: C:\Windows\System32\ucrtbase.dll, address range [0x7ffaaa880000-0x7ffaaa974fff] 
+Loaded module: C:\Windows\System32\win32u.dll, address range [0x7ffaaa980000-0x7ffaaa99dfff] 
+Loaded module: C:\Windows\System32\KERNELBASE.dll, address range [0x7ffaaa9a0000-0x7ffaaabbcfff] 
+Loaded module: C:\Windows\System32\IMM32.DLL, address range [0x7ffaaae90000-0x7ffaaaebdfff], minimal analysis 
+Loaded module: C:\Windows\System32\USER32.dll, address range [0x7ffaaaec0000-0x7ffaab024fff], minimal analysis 
+Loaded module: C:\Windows\System32\KERNEL32.DLL, address range [0x7ffaab030000-0x7ffaab0dafff] 
+Loaded module: C:\Windows\System32\RPCRT4.dll, address range [0x7ffaab160000-0x7ffaab280fff] 
+Loaded module: C:\Windows\System32\ole32.dll, address range [0x7ffaab350000-0x7ffaab486fff] 
+Loaded module: C:\Windows\System32\combase.dll, address range [0x7ffaab700000-0x7ffaab9c6fff], minimal analysis 
+Loaded module: C:\Windows\System32\sechost.dll, address range [0x7ffaad690000-0x7ffaad6e8fff] 
+Loaded module: C:\Windows\System32\msvcrt.dll, address range [0x7ffaad6f0000-0x7ffaad78dfff] 
+Loaded module: C:\Windows\System32\ADVAPI32.dll, address range [0x7ffaad810000-0x7ffaad8b1fff] 
+Loaded module: C:\Windows\System32\GDI32.dll, address range [0x7ffaad8c0000-0x7ffaad8f3fff] 
+Loaded module: C:\Windows\SYSTEM32\ntdll.dll, address range [0x7ffaad900000-0x7ffaadad0fff] 
+Loaded module: C:\Windows\SYSTEM32\MSVCP140D.dll, address range [0x7ffa52280000-0x7ffa52370fff] 
+Loaded module: C:\Windows\SYSTEM32\ucrtbased.dll, address range [0x7ffa46000000-0x7ffa461c1fff] 
+Loaded module: C:\Windows\SYSTEM32\VCRUNTIME140D.dll, address range [0x7ffa54b70000-0x7ffa54b91fff] 
+Loaded module: C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll, address range [0x7ffa54410000-0x7ffa54462fff], minimal analysis 
+Loaded module: C:\Program Files (x86)\IntelSWTools\Inspector 2019\bin64\runtime\libittnotify.dll, address range [0x7ffa53210000-0x7ffa53242fff], minimal analysis 
+Process F:\Intel_parallel_studio\projects\task3\x64\Debug\task3.exe exited with code 0. Leak analysis starting. Please wait... 
+Unloaded module: F:\Intel_parallel_studio\projects\task3\x64\Debug\task3.exe 
