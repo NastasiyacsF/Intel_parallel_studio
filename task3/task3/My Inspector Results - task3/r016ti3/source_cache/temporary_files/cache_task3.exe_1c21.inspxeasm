@@ -1,0 +1,26 @@
+7112	?reduce@?$op_add_view@N@cilk@@QEAAXPEAV12@@Z:
+7112	push rbp
+7113	sub rsp, 0x20
+7117	lea rbp, ptr [rsp+0x20]
+7122	mov qword ptr [rsp], rax
+7126	mov rax, 0x1c
+7133	mov dword ptr [rsp+rax*1], 0xcccccccc
+7140	sub rax, 0x4
+7144	cmp rax, 0x4
+7148	jnle 0x1bdd
+7150	mov rax, qword ptr [rsp]
+7154	mov dword ptr [rsp], 0xcccccccc
+7161	mov dword ptr [rsp+0x4], 0xcccccccc
+7169	mov qword ptr [rbp+0x10], rcx
+7173	mov qword ptr [rbp+0x18], rdx
+7177	mov rax, qword ptr [rbp+0x10]
+7181	mov rdx, qword ptr [rbp+0x18]
+7185	movsd xmm0, qword ptr [rax]
+7189	movsd xmm1, qword ptr [rdx]
+7193	addsd xmm0, xmm1
+7197	mov rax, qword ptr [rbp+0x10]
+7201	movsd qword ptr [rax], xmm0
+7205	lea rsp, ptr [rbp]
+7209	pop rbp
+7210	ret 
+7211	nop 
