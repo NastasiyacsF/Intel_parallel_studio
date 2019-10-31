@@ -1,0 +1,5 @@
+﻿  task3.cpp
+F:\Intel_parallel_studio\projects\task3\task3\task3.cpp(99): warning #3947: "_Cilk_for" has been deprecated, and will be removed in a future release.  Please refer to release notes for details and recommended alternatives
+    		cilk_for(int j = k + 1; j < rows; ++j)
+    		^
+  
