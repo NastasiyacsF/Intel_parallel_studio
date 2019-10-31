@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2019/10/31 10:10:19</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>marker-file</type>
+  <arg>F:\Intel_parallel_studio\projects\task3\task3\My Inspector Results - task3\r035ti3\r035ti3.inspxe</arg>
+</msg>
+<msg id="4" tool="tc">
+  <type>START</type>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:19 2019</timestamp>
+</msg>
+<msg id="5" tool="tc">
+  <type>EXEC_OF_INTEREST</type>
+  <arg>f:\intel_parallel_studio\projects\task3\x64\release\task3.exe</arg>
+  <arg>228</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:19 2019</timestamp>
+</msg>
+<msg id="6" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>f:\intel_parallel_studio\projects\task3\x64\release\task3.exe</arg>
+  <arg>0x7ff779360000</arg>
+  <arg>0x7ff779375fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:19 2019</timestamp>
+</msg>
+<msg id="7" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\kernelbase.dll</arg>
+  <arg>0x7ffaaa9a0000</arg>
+  <arg>0x7ffaaabbcfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:19 2019</timestamp>
+</msg>
+<msg id="8" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\kernel32.dll</arg>
+  <arg>0x7ffaab030000</arg>
+  <arg>0x7ffaab0dafff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:19 2019</timestamp>
+</msg>
+<msg id="9" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\ntdll.dll</arg>
+  <arg>0x7ffaad900000</arg>
+  <arg>0x7ffaadad0fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:20 2019</timestamp>
+</msg>
+<msg id="10" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\ucrtbase.dll</arg>
+  <arg>0x7ffaaa880000</arg>
+  <arg>0x7ffaaa974fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:20 2019</timestamp>
+</msg>
+<msg id="11" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcp140.dll</arg>
+  <arg>0x7ffa8d740000</arg>
+  <arg>0x7ffa8d7dafff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:20 2019</timestamp>
+</msg>
+<msg id="12" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\vcruntime140.dll</arg>
+  <arg>0x7ffa900f0000</arg>
+  <arg>0x7ffa90104fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:21 2019</timestamp>
+</msg>
+<msg id="13" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll</arg>
+  <arg>0x7ffa649c0000</arg>
+  <arg>0x7ffa64a12fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:21 2019</timestamp>
+</msg>
+<msg id="14" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\user32.dll</arg>
+  <arg>0x7ffaaaec0000</arg>
+  <arg>0x7ffaab024fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:21 2019</timestamp>
+</msg>
+<msg id="15" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\win32u.dll</arg>
+  <arg>0x7ffaaa980000</arg>
+  <arg>0x7ffaaa99dfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:21 2019</timestamp>
+</msg>
+<msg id="16" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\gdi32.dll</arg>
+  <arg>0x7ffaad8c0000</arg>
+  <arg>0x7ffaad8f3fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:21 2019</timestamp>
+</msg>
+<msg id="17" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\gdi32full.dll</arg>
+  <arg>0x7ffaaa6f0000</arg>
+  <arg>0x7ffaaa871fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:22 2019</timestamp>
+</msg>
+<msg id="18" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\imm32.dll</arg>
+  <arg>0x7ffaaae90000</arg>
+  <arg>0x7ffaaaebdfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:22 2019</timestamp>
+</msg>
+<msg id="19" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\program files (x86)\intelswtools\inspector 2019\bin64\runtime\libittnotify.dll</arg>
+  <arg>0x7ffa8e490000</arg>
+  <arg>0x7ffa8e4c2fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:23 2019</timestamp>
+</msg>
+<msg id="20" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>545,4222,662,4509658</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:24 2019</timestamp>
+</msg>
+<msg id="21" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,20504249</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:25 2019</timestamp>
+</msg>
+<msg id="22" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,2044410</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:26 2019</timestamp>
+</msg>
+<msg id="23" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:27 2019</timestamp>
+</msg>
+<msg id="24" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:28 2019</timestamp>
+</msg>
+<msg id="25" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:29 2019</timestamp>
+</msg>
+<msg id="26" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:30 2019</timestamp>
+</msg>
+<msg id="27" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:31 2019</timestamp>
+</msg>
+<msg id="28" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:32 2019</timestamp>
+</msg>
+<msg id="29" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:33 2019</timestamp>
+</msg>
+<msg id="30" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:34 2019</timestamp>
+</msg>
+<msg id="31" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:35 2019</timestamp>
+</msg>
+<msg id="32" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:36 2019</timestamp>
+</msg>
+<msg id="33" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:37 2019</timestamp>
+</msg>
+<msg id="34" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:38 2019</timestamp>
+</msg>
+<msg id="35" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:39 2019</timestamp>
+</msg>
+<msg id="36" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:40 2019</timestamp>
+</msg>
+<msg id="37" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:41 2019</timestamp>
+</msg>
+<msg id="38" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:42 2019</timestamp>
+</msg>
+<msg id="39" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:43 2019</timestamp>
+</msg>
+<msg id="40" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:44 2019</timestamp>
+</msg>
+<msg id="41" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:45 2019</timestamp>
+</msg>
+<msg id="42" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:46 2019</timestamp>
+</msg>
+<msg id="43" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:47 2019</timestamp>
+</msg>
+<msg id="44" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:48 2019</timestamp>
+</msg>
+<msg id="45" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:49 2019</timestamp>
+</msg>
+<msg id="46" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:50 2019</timestamp>
+</msg>
+<msg id="47" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6488,3812,5032,4180</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:51 2019</timestamp>
+</msg>
+<msg id="48" tool="tc">
+  <type>THREADNAME</type>
+  <arg>6616</arg>
+  <arg>Cilk Worker</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:52 2019</timestamp>
+</msg>
+<msg id="49" tool="tc">
+  <type>THREADNAME</type>
+  <arg>12380</arg>
+  <arg>Cilk Worker</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:52 2019</timestamp>
+</msg>
+<msg id="50" tool="tc">
+  <type>THREADNAME</type>
+  <arg>8672</arg>
+  <arg>Cilk Worker</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:52 2019</timestamp>
+</msg>
+<msg id="51" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>572298,13107,720030,0,0,0,11957</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:52 2019</timestamp>
+</msg>
+<msg id="52" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>294877,301375,290641,0,0,0,325278</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:53 2019</timestamp>
+</msg>
+<msg id="53" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>319892,259757,245005,0,0,0,211669</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:54 2019</timestamp>
+</msg>
+<msg id="54" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>382356,199332,288574,0,0,0,456755</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:55 2019</timestamp>
+</msg>
+<msg id="55" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>297678,249656,188874,0,0,0,180476</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:56 2019</timestamp>
+</msg>
+<msg id="56" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>266475,294519,317543,0,0,0,175472</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:57 2019</timestamp>
+</msg>
+<msg id="57" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>274160,241829,195106,0,0,0,299753</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:58 2019</timestamp>
+</msg>
+<msg id="58" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>199123,229193,166471,0,0,0,296540</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:10:59 2019</timestamp>
+</msg>
+<msg id="59" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>297966,331474,324611,0,0,0,241235</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:00 2019</timestamp>
+</msg>
+<msg id="60" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>221494,118429,204879,0,0,0,197959</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:01 2019</timestamp>
+</msg>
+<msg id="61" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>129838,182085,158117,0,0,0,40007</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:02 2019</timestamp>
+</msg>
+<msg id="62" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>235372,150695,249596,0,0,0,240012</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:03 2019</timestamp>
+</msg>
+<msg id="63" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>248177,297231,218605,0,0,0,163002</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:04 2019</timestamp>
+</msg>
+<msg id="64" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>271353,220514,293604,0,0,0,150162</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:05 2019</timestamp>
+</msg>
+<msg id="65" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>245871,283817,271964,0,0,0,191386</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:06 2019</timestamp>
+</msg>
+<msg id="66" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>230397,234154,105477,0,0,0,142023</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:07 2019</timestamp>
+</msg>
+<msg id="67" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>191493,190752,199139,0,0,0,293534</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:08 2019</timestamp>
+</msg>
+<msg id="68" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>120059,122813,94174,0,0,0,158881</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:09 2019</timestamp>
+</msg>
+<msg id="69" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>121873,202654,212228,0,0,0,158452</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:10 2019</timestamp>
+</msg>
+<msg id="70" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>248094,300421,338861,0,0,0,401019</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:11 2019</timestamp>
+</msg>
+<msg id="71" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>245496,278969,275091,0,0,0,118922</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:12 2019</timestamp>
+</msg>
+<msg id="72" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>231491,228135,162333,0,0,0,123715</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:13 2019</timestamp>
+</msg>
+<msg id="73" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>231802,171415,164043,0,0,0,318493</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:14 2019</timestamp>
+</msg>
+<msg id="74" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>329961,318604,195796,0,0,0,364241</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:15 2019</timestamp>
+</msg>
+<msg id="75" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>218129,190578,202110,0,0,0,188149</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:16 2019</timestamp>
+</msg>
+<msg id="76" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>185714,145783,257925,0,0,0,191262</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:17 2019</timestamp>
+</msg>
+<msg id="77" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>302496,348680,337578,0,0,0,360450</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:18 2019</timestamp>
+</msg>
+<msg id="78" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,6488,3812,5032,4180</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>328306,244177,224709,0,0,0,305836</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:19 2019</timestamp>
+</msg>
+<msg id="79" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,4180</arg>
+  <arg>0,0,0,0</arg>
+  <arg>221980,226899,160931,234580</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:20 2019</timestamp>
+</msg>
+<msg id="80" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,4180</arg>
+  <arg>0,0,0,0</arg>
+  <arg>202467,234784,252055,246494</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:21 2019</timestamp>
+</msg>
+<msg id="81" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,4180</arg>
+  <arg>0,0,0,0</arg>
+  <arg>276987,210479,307063,294411</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:22 2019</timestamp>
+</msg>
+<msg id="82" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,4180</arg>
+  <arg>0,0,0,0</arg>
+  <arg>228497,273949,315645,317248</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:23 2019</timestamp>
+</msg>
+<msg id="83" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,4180</arg>
+  <arg>0,0,0,0</arg>
+  <arg>226912,201383,214583,187590</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:24 2019</timestamp>
+</msg>
+<msg id="84" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,4180</arg>
+  <arg>0,0,0,0</arg>
+  <arg>121161,122016,152575,91904</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:25 2019</timestamp>
+</msg>
+<msg id="85" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,4180</arg>
+  <arg>0,0,0,0</arg>
+  <arg>389719,382488,345317,338885</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:26 2019</timestamp>
+</msg>
+<msg id="86" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6616,12380,8672,4180</arg>
+  <arg>0,0,0,0</arg>
+  <arg>658675,965722,652543,780135</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:27 2019</timestamp>
+</msg>
+<msg id="87" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\kernel.appcore.dll</arg>
+  <arg>0x7ffaa9e20000</arg>
+  <arg>0x7ffaa9e2efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:28 2019</timestamp>
+</msg>
+<msg id="88" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcrt.dll</arg>
+  <arg>0x7ffaad6f0000</arg>
+  <arg>0x7ffaad78dfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:28 2019</timestamp>
+</msg>
+<msg id="89" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13424,6616,12380,8672,4180</arg>
+  <arg>1,1,1,1,1</arg>
+  <arg>16,1119796,1326460,1249361,919617</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:28 2019</timestamp>
+</msg>
+<msg id="90" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\rpcrt4.dll</arg>
+  <arg>0x7ffaab160000</arg>
+  <arg>0x7ffaab280fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:28 2019</timestamp>
+</msg>
+<msg id="91" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>f:\intel_parallel_studio\projects\task3\x64\release\task3.exe</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:29 2019</timestamp>
+</msg>
+<msg id="92" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\kernelbase.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:29 2019</timestamp>
+</msg>
+<msg id="93" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\kernel32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:29 2019</timestamp>
+</msg>
+<msg id="94" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\ntdll.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:29 2019</timestamp>
+</msg>
+<msg id="95" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\ucrtbase.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:29 2019</timestamp>
+</msg>
+<msg id="96" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcp140.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:29 2019</timestamp>
+</msg>
+<msg id="97" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\vcruntime140.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:29 2019</timestamp>
+</msg>
+<msg id="98" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:29 2019</timestamp>
+</msg>
+<msg id="99" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\user32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:29 2019</timestamp>
+</msg>
+<msg id="100" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\win32u.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:29 2019</timestamp>
+</msg>
+<msg id="101" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\gdi32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:29 2019</timestamp>
+</msg>
+<msg id="102" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\gdi32full.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:29 2019</timestamp>
+</msg>
+<msg id="103" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\imm32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:29 2019</timestamp>
+</msg>
+<msg id="104" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\program files (x86)\intelswtools\inspector 2019\bin64\runtime\libittnotify.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:29 2019</timestamp>
+</msg>
+<msg id="105" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\kernel.appcore.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:29 2019</timestamp>
+</msg>
+<msg id="106" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcrt.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:29 2019</timestamp>
+</msg>
+<msg id="107" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\rpcrt4.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:29 2019</timestamp>
+</msg>
+<msg id="108" tool="tc">
+  <type>PROCESS_TERMINATE</type>
+  <arg>f:\intel_parallel_studio\projects\task3\x64\release\task3.exe</arg>
+  <arg>228</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:29 2019</timestamp>
+</msg>
+<msg id="109" tool="tc">
+  <type>ANALYSIS_COMPLETE</type>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:29 2019</timestamp>
+</msg>
+<msg id="110" tool="tc">
+  <type>STOP</type>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 10:11:29 2019</timestamp>
+</msg>
+<msg id="111" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="112" tool="runtool">
+  <type>marker-file</type>
+  <arg>F:\Intel_parallel_studio\projects\task3\task3\My Inspector Results - task3\r035ti3\r035ti3.inspxe</arg>
+</msg>
+<msg id="113" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="114" tool="runtool">
+  <type>log-end</type>
+  <arg>2019/10/31 10:11:33</arg>
+</msg>
+
+</log>
+

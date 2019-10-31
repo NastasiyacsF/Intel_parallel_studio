@@ -29,8 +29,7 @@
        <launch_app.app_to_launch>F:\Intel_parallel_studio\projects\task3\x64\Debug\task3.exe</launch_app.app_to_launch>
        <launch_app.working_folder>F:\Intel_parallel_studio\projects\task3\task3</launch_app.working_folder>
        <launch_app.app_parameters></launch_app.app_parameters>
-       <launch_app.environment>PATH=;%PATH%&#13;
-PATH=;%PATH%</launch_app.environment>
+       <launch_app.environment></launch_app.environment>
        <launch_app.environment_prepend>PATH=C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019\windows\redist\intel64\compiler;</launch_app.environment_prepend>
        <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
        <result_directory.path>F:\Intel_parallel_studio\projects\task3\task3\My Amplifier Results - task3\r@@@{at}</result_directory.path>

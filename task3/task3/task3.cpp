@@ -28,7 +28,7 @@ void InitMatrix(double** matrix)
 }
 
 //последовательная версия метода Гаусса
-void SerialGaussMethod(double **matrix, const int rows, double* result)
+duration<double> SerialGaussMethod(double **matrix, const int rows, double* result)
 {
 	int k;
 	double koef;
@@ -63,20 +63,22 @@ void SerialGaussMethod(double **matrix, const int rows, double* result)
 		}
 		result[k] /= matrix[k][k];
 	}
+
+	return duration;
 }
 
 //параллельная версия метода Гаусса
-void ParallelGaussMethod(double **matrix, const int rows, double* result)
+duration<double> ParallelGaussMethod(double **matrix, const int rows, double* result)
 {
 	int k;
-	double koef;
 
 	high_resolution_clock::time_point t1 = high_resolution_clock::now();
 	for (k = 0; k < rows; ++k)
 	{
-		for (int i = k + 1; i < rows; ++i) //строка
+		cilk_for (int i = k + 1; i < rows; ++i)
 		{
-			koef = -matrix[i][k] / matrix[k][k];
+			double koef = -matrix[i][k] / matrix[k][k];
+
 			for (int j = k; j <= rows; ++j)
 			{
 				matrix[i][j] += koef * matrix[k][j];
@@ -94,21 +96,21 @@ void ParallelGaussMethod(double **matrix, const int rows, double* result)
 
 	for (k = rows - 2; k >= 0; --k)
 	{
-		cilk::reducer_opadd<double> parallel_result(matrix[k][rows]);
-		//result[k] = matrix[k][rows];
+		cilk::reducer < cilk::op_add<double> > parallel_result(matrix[k][rows]);
 		cilk_for(int j = k + 1; j < rows; ++j)
 		{
-			parallel_result -= matrix[k][j] * result[j];
-			//result[k] -= matrix[k][j] * result[j];
+			*parallel_result += (-1)*matrix[k][j] * result[j];
 		}
-		result[k] = parallel_result.get_value();
-		result[k] /= matrix[k][k];
+		result[k] = (parallel_result.get_value()) / matrix[k][k];
 	}
+
+	return duration;
 }
 
 int main()
 {
 	srand((unsigned)time(0));
+
 
 	__cilkrts_set_param("nworkers", "4");
 	
@@ -153,24 +155,12 @@ int main()
 	test_matrix[3][3] = 2; test_matrix[3][4] = 37;
 	*/
 
-	SerialGaussMethod(matrix, MATRIX_SIZE, result);
+	//matrix2 копия matrix
+	duration<double> durSerial = SerialGaussMethod(matrix, MATRIX_SIZE, result);
 
-	ParallelGaussMethod(matrix2, MATRIX_SIZE, result2);
+	duration<double> durParallel = ParallelGaussMethod(matrix2, MATRIX_SIZE, result2);
 
-	/*bool error = 0;
-	for (int i = 0; i < MATRIX_SIZE; ++i)
-	{
-		if (result[i] != result2[i])
-		{
-			error = 1;
-			break;
-		}
-			
-	}
-	if (!error)
-		printf("Matrixs equal \n");
-	else
-		printf("Matrixs not equal \n");*/
+	printf("Parallel is %f \n\n",  durSerial.count() / durParallel.count());
 	
 	for (int i = 0; i < MATRIX_SIZE; ++i)
 	{
@@ -181,12 +171,12 @@ int main()
 	
 	
 	////Вывод ответа
-	//printf("Solution:\n");
-	//for (int i = 0; i < MATRIX_SIZE; ++i)
-	//{
-	//	printf("x(%d) = %lf\n", i, result[i]);
-	//	printf("x(%d) = %lf\n", i, result2[i]);
-	//}
+	printf("Solution:\n");
+	for (int i = 0; i < 10 && i< MATRIX_SIZE; ++i)
+	{
+		printf("x(%d) = %lf\n", i, result[i]);
+		printf("x(%d) = %lf\n", i, result2[i]);
+	}
 	
 	delete[] result;
 	delete[] result2;

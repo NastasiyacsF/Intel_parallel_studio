@@ -34,20 +34,20 @@
        <targetName>launch</targetName>
        <enable_app_output_log type="bool">false</enable_app_output_log>
        <project_id>{606DC0C3-7A3E-4B78-B4B1-1F78C26C60FB}</project_id>
-       <launch_app.app_to_launch>F:\Intel_parallel_studio\projects\task3\x64\Debug\task3.exe</launch_app.app_to_launch>
+       <launch_app.app_to_launch>F:\Intel_parallel_studio\projects\task3\x64\Release\task3.exe</launch_app.app_to_launch>
        <launch_app.working_folder>F:\Intel_parallel_studio\projects\task3\task3</launch_app.working_folder>
        <launch_app.environment_prepend>PATH=C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019\windows\redist\intel64\compiler;</launch_app.environment_prepend>
        <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
        <result_directory.path>F:\Intel_parallel_studio\projects\task3\task3\My Inspector Results - task3\r@@@{at}</result_directory.path>
        <search_directories>
         <item>
-         <value>sym=F:\Intel_parallel_studio\projects\task3\x64\Debug</value>
+         <value>sym=F:\Intel_parallel_studio\projects\task3\x64\Release</value>
         </item>
         <item>
          <value>sym=F:\Intel_parallel_studio\projects\task3</value>
         </item>
         <item>
-         <value>bin=F:\Intel_parallel_studio\projects\task3\x64\Debug</value>
+         <value>bin=F:\Intel_parallel_studio\projects\task3\x64\Release</value>
         </item>
         <item>
          <value>bin=F:\Intel_parallel_studio\projects\task3</value>
