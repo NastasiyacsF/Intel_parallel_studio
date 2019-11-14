@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2019/11/14 20:06:43</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>marker-file</type>
+  <arg>F:\Intel_parallel_studio\projects\task_clk\task_clk\My Inspector Results - task_clk\r001ti3\r001ti3.inspxe</arg>
+</msg>
+<msg id="4" tool="tc">
+  <type>START</type>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:43 2019</timestamp>
+</msg>
+<msg id="5" tool="tc">
+  <type>EXEC_OF_INTEREST</type>
+  <arg>f:\intel_parallel_studio\projects\task_clk\x64\debug\task_clk.exe</arg>
+  <arg>10908</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:43 2019</timestamp>
+</msg>
+<msg id="6" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>f:\intel_parallel_studio\projects\task_clk\x64\debug\task_clk.exe</arg>
+  <arg>0x7ff68bab0000</arg>
+  <arg>0x7ff68bac7fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:43 2019</timestamp>
+</msg>
+<msg id="7" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\kernelbase.dll</arg>
+  <arg>0x7ffb40740000</arg>
+  <arg>0x7ffb4095cfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:43 2019</timestamp>
+</msg>
+<msg id="8" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\kernel32.dll</arg>
+  <arg>0x7ffb42730000</arg>
+  <arg>0x7ffb427dafff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:43 2019</timestamp>
+</msg>
+<msg id="9" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\ntdll.dll</arg>
+  <arg>0x7ffb435a0000</arg>
+  <arg>0x7ffb43770fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:43 2019</timestamp>
+</msg>
+<msg id="10" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\vcruntime140d.dll</arg>
+  <arg>0x7ffb17e10000</arg>
+  <arg>0x7ffb17e31fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:44 2019</timestamp>
+</msg>
+<msg id="11" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcp140d.dll</arg>
+  <arg>0x7ffb16880000</arg>
+  <arg>0x7ffb16970fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:44 2019</timestamp>
+</msg>
+<msg id="12" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\libmmdd.dll</arg>
+  <arg>0x7ffada9c0000</arg>
+  <arg>0x7ffadadf8fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:45 2019</timestamp>
+</msg>
+<msg id="13" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll</arg>
+  <arg>0x7ffb16820000</arg>
+  <arg>0x7ffb16872fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:45 2019</timestamp>
+</msg>
+<msg id="14" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\ucrtbased.dll</arg>
+  <arg>0x7ffade220000</arg>
+  <arg>0x7ffade3e1fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:45 2019</timestamp>
+</msg>
+<msg id="15" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\user32.dll</arg>
+  <arg>0x7ffb427e0000</arg>
+  <arg>0x7ffb42944fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:45 2019</timestamp>
+</msg>
+<msg id="16" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\win32u.dll</arg>
+  <arg>0x7ffb3fbe0000</arg>
+  <arg>0x7ffb3fbfdfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:45 2019</timestamp>
+</msg>
+<msg id="17" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\gdi32.dll</arg>
+  <arg>0x7ffb40d00000</arg>
+  <arg>0x7ffb40d33fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:46 2019</timestamp>
+</msg>
+<msg id="18" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\gdi32full.dll</arg>
+  <arg>0x7ffb40500000</arg>
+  <arg>0x7ffb40681fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:46 2019</timestamp>
+</msg>
+<msg id="19" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\imm32.dll</arg>
+  <arg>0x7ffb40d40000</arg>
+  <arg>0x7ffb40d6dfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:47 2019</timestamp>
+</msg>
+<msg id="20" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\program files (x86)\intelswtools\inspector 2019\bin64\runtime\libittnotify.dll</arg>
+  <arg>0x7ffb17d10000</arg>
+  <arg>0x7ffb17d42fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:48 2019</timestamp>
+</msg>
+<msg id="21" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>10948,2444,10680,11268</arg>
+  <arg>1,1,1,0</arg>
+  <arg>567,1308,961,3158449</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:49 2019</timestamp>
+</msg>
+<msg id="22" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>10948,2444,10680,11268</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,5734835</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:50 2019</timestamp>
+</msg>
+<msg id="23" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>10948,2444,10680,11268</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,6025303</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:51 2019</timestamp>
+</msg>
+<msg id="24" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>10948,2444,10680,11268</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,6038904</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:52 2019</timestamp>
+</msg>
+<msg id="25" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>10948,2444,10680,11268</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,5984388</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:53 2019</timestamp>
+</msg>
+<msg id="26" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>10948,2444,10680,11268</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,6156912</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:54 2019</timestamp>
+</msg>
+<msg id="27" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>10948,2444,10680,11268</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,5946354</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:55 2019</timestamp>
+</msg>
+<msg id="28" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>10948,2444,10680,11268</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,1008797</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:56 2019</timestamp>
+</msg>
+<msg id="29" tool="tc">
+  <type>THREADNAME</type>
+  <arg>7024</arg>
+  <arg>Cilk Worker</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:57 2019</timestamp>
+</msg>
+<msg id="30" tool="tc">
+  <type>THREADNAME</type>
+  <arg>6416</arg>
+  <arg>Cilk Worker</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:57 2019</timestamp>
+</msg>
+<msg id="31" tool="tc">
+  <type>THREADNAME</type>
+  <arg>6480</arg>
+  <arg>Cilk Worker</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:57 2019</timestamp>
+</msg>
+<msg id="32" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>7024,6416,6480,10948,2444,10680,11268</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>614409,640150,676786,0,0,0,1351626</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:57 2019</timestamp>
+</msg>
+<msg id="33" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>7024,6416,6480,10948,2444,10680,11268</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>2130182,2160678,2177368,0,0,0,3118405</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:58 2019</timestamp>
+</msg>
+<msg id="34" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>7024,6416,6480,10948,2444,10680,11268</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>2321265,2223382,2365742,0,0,0,3043074</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:06:59 2019</timestamp>
+</msg>
+<msg id="35" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>7024,6416,6480,10948,2444,10680,11268</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>2110545,2135878,2137663,0,0,0,1980513</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:00 2019</timestamp>
+</msg>
+<msg id="36" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>7024,6416,6480,10948,2444,10680,11268</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>1937689,1765713,1720659,0,0,0,1926295</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:01 2019</timestamp>
+</msg>
+<msg id="37" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>7024,6416,6480,10948,2444,10680,11268</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>2176532,2190009,2096800,0,0,0,2121710</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:02 2019</timestamp>
+</msg>
+<msg id="38" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>7024,6416,6480,10948,2444,10680,11268</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>2381619,2279713,2284672,0,0,0,2295758</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:03 2019</timestamp>
+</msg>
+<msg id="39" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\kernel.appcore.dll</arg>
+  <arg>0x7ffb3fb20000</arg>
+  <arg>0x7ffb3fb2efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:04 2019</timestamp>
+</msg>
+<msg id="40" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcrt.dll</arg>
+  <arg>0x7ffb422e0000</arg>
+  <arg>0x7ffb4237dfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:04 2019</timestamp>
+</msg>
+<msg id="41" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\rpcrt4.dll</arg>
+  <arg>0x7ffb42950000</arg>
+  <arg>0x7ffb42a70fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:04 2019</timestamp>
+</msg>
+<msg id="42" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>7024,6416,6480,10948,2444,10680,11268</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>1122856,1100901,1065069,0,257,0,1023777</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:04 2019</timestamp>
+</msg>
+<msg id="43" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>f:\intel_parallel_studio\projects\task_clk\x64\debug\task_clk.exe</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:05 2019</timestamp>
+</msg>
+<msg id="44" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\kernelbase.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:05 2019</timestamp>
+</msg>
+<msg id="45" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\kernel32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:05 2019</timestamp>
+</msg>
+<msg id="46" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\ntdll.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:05 2019</timestamp>
+</msg>
+<msg id="47" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\vcruntime140d.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:05 2019</timestamp>
+</msg>
+<msg id="48" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcp140d.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:05 2019</timestamp>
+</msg>
+<msg id="49" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\libmmdd.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:05 2019</timestamp>
+</msg>
+<msg id="50" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:05 2019</timestamp>
+</msg>
+<msg id="51" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\ucrtbased.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:05 2019</timestamp>
+</msg>
+<msg id="52" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\user32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:05 2019</timestamp>
+</msg>
+<msg id="53" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\win32u.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:05 2019</timestamp>
+</msg>
+<msg id="54" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\gdi32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:05 2019</timestamp>
+</msg>
+<msg id="55" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\gdi32full.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:05 2019</timestamp>
+</msg>
+<msg id="56" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\imm32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:05 2019</timestamp>
+</msg>
+<msg id="57" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\program files (x86)\intelswtools\inspector 2019\bin64\runtime\libittnotify.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:05 2019</timestamp>
+</msg>
+<msg id="58" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\kernel.appcore.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:05 2019</timestamp>
+</msg>
+<msg id="59" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcrt.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:05 2019</timestamp>
+</msg>
+<msg id="60" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\rpcrt4.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:05 2019</timestamp>
+</msg>
+<msg id="61" tool="tc">
+  <type>PROCESS_TERMINATE</type>
+  <arg>f:\intel_parallel_studio\projects\task_clk\x64\debug\task_clk.exe</arg>
+  <arg>10908</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:05 2019</timestamp>
+</msg>
+<msg id="62" tool="tc">
+  <type>ANALYSIS_COMPLETE</type>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:05 2019</timestamp>
+</msg>
+<msg id="63" tool="tc">
+  <type>STOP</type>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov 14 20:07:05 2019</timestamp>
+</msg>
+<msg id="64" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="65" tool="runtool">
+  <type>marker-file</type>
+  <arg>F:\Intel_parallel_studio\projects\task_clk\task_clk\My Inspector Results - task_clk\r001ti3\r001ti3.inspxe</arg>
+</msg>
+<msg id="66" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="67" tool="runtool">
+  <type>log-end</type>
+  <arg>2019/11/14 20:07:09</arg>
+</msg>
+
+</log>
+

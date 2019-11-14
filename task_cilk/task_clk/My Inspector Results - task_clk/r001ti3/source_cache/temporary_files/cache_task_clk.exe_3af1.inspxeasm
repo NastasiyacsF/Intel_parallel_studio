@@ -1,0 +1,99 @@
+14836	push rbp
+14837	sub rsp, 0x50
+14841	lea rbp, ptr [rsp+0x20]
+14846	mov qword ptr [rsp], rax
+14850	mov rax, 0x4c
+14857	mov dword ptr [rsp+rax*1], 0xcccccccc
+14864	sub rax, 0x4
+14868	cmp rax, 0x4
+14872	jnle 0x3a09
+14874	mov rax, qword ptr [rsp]
+14878	mov dword ptr [rsp], 0xcccccccc
+14885	mov dword ptr [rsp+0x4], 0xcccccccc
+14893	mov qword ptr [rbp+0x40], rcx
+14897	mov dword ptr [rbp+0x48], edx
+14900	mov dword ptr [rbp+0x50], r8d
+14904	mov rax, qword ptr [rbp+0x40]
+14908	mov rax, qword ptr [rax+0x20]
+14912	mov byte ptr [rax], 0x1
+14915	mov eax, dword ptr [rbp+0x48]
+14918	mov dword ptr [rbp], eax
+14921	mov eax, dword ptr [rbp]
+14924	mov edx, dword ptr [rbp+0x50]
+14927	cmp eax, edx
+14929	jb 0x3a59
+14931	lea rsp, ptr [rbp+0x30]
+14935	pop rbp
+14936	ret 
+14937	mov rax, qword ptr [rbp+0x40]
+14941	mov rax, qword ptr [rax+0x28]
+14945	mov byte ptr [rax], 0x1
+14948	mov rax, qword ptr [rbp+0x40]
+14952	mov eax, dword ptr [rax+0x38]
+14955	mov dword ptr [rbp+0x4], eax
+14958	mov rax, qword ptr [rbp+0x40]
+14962	mov rax, qword ptr [rax+0x28]
+14966	mov byte ptr [rax], 0x1
+14969	mov eax, dword ptr [rbp]
+14972	add eax, dword ptr [rbp+0x4]
+14975	mov dword ptr [rbp+0x4], eax
+14978	mov rax, qword ptr [rbp+0x40]
+14982	mov rax, qword ptr [rax+0x30]
+14986	mov byte ptr [rax], 0x1
+14989	mov eax, dword ptr [rbp+0x4]
+14992	cvtsi2sd xmm0, eax
+14996	mov rax, qword ptr [rbp+0x40]
+15000	movsd xmm1, qword ptr [rax]
+15004	mulsd xmm0, xmm1
+15008	movsd xmm1, qword ptr [rip+0x91a8]
+15016	mov rax, qword ptr [rbp+0x40]
+15020	movsd xmm2, qword ptr [rax]
+15024	mulsd xmm1, xmm2
+15028	addsd xmm0, xmm1
+15032	mov rax, qword ptr [rbp+0x40]
+15036	mov rax, qword ptr [rax+0x10]
+15040	movsd qword ptr [rax], xmm0
+15044	mov rax, qword ptr [rbp+0x40]
+15048	mov rax, qword ptr [rax+0x10]
+15052	movsd xmm0, qword ptr [rax]
+15056	cvtsd2ss xmm0, xmm0
+15060	call 0x1073 <@ILT+6e(?f@@YANM@Z)>
+15065	movsd qword ptr [rbp+0x8], xmm0
+15070	mov rax, qword ptr [rbp+0x40]
+15074	mov rax, qword ptr [rax+0x18]
+15078	mov byte ptr [rax], 0x1
+15081	mov rax, qword ptr [rbp+0x40]
+15085	mov rax, qword ptr [rax+0x8]
+15089	movsd xmm0, qword ptr [rax]
+15093	movsd xmm1, qword ptr [rbp+0x8]
+15098	addsd xmm0, xmm1
+15102	mov rax, qword ptr [rbp+0x40]
+15106	mov rax, qword ptr [rax+0x8]
+15110	movsd qword ptr [rax], xmm0
+15114	mov rax, qword ptr [rbp+0x40]
+15118	mov rax, qword ptr [rax+0x20]
+15122	mov byte ptr [rax], 0x1
+15125	mov eax, 0x1
+15130	add eax, dword ptr [rbp]
+15133	mov dword ptr [rbp], eax
+15136	call 0x8a26 <__cilkrts_get_tls_worker>
+15141	mov qword ptr [rbp+0x18], rax
+15145	test rax, rax
+15148	jnz 0x3b65
+15150	mov rax, qword ptr [rbp+0x18]
+15154	mov qword ptr [rbp+0x10], rax
+15158	mov rax, qword ptr [rbp+0x10]
+15162	mov qword ptr [rbp+0x20], rax
+15166	mov eax, dword ptr [rbp]
+15169	mov qword ptr [rbp+0x28], rax
+15173	mov rax, qword ptr [rbp+0x20]
+15177	mov rax, qword ptr [rax+0x10]
+15181	mov qword ptr [rax+0x60], 0x0
+15189	mov rax, qword ptr [rax+0x68]
+15193	mov rdx, qword ptr [rbp+0x28]
+15197	mov qword ptr [rax], rdx
+15200	jmp 0x3a49
+15205	mov rax, qword ptr [rbp+0x18]
+15209	mov rax, qword ptr [rax+0x48]
+15213	mov qword ptr [rbp+0x18], rax
+15217	jmp 0x3b2e
