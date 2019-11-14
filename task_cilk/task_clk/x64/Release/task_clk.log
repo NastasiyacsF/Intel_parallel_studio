@@ -1,0 +1,6 @@
+﻿  task_clk.cpp
+F:\Intel_parallel_studio\projects\task_clk\task_clk\task_clk.cpp(61): warning #3947: "_Cilk_for" has been deprecated, and will be removed in a future release.  Please refer to release notes for details and recommended alternatives
+    	cilk_for (i = 0; i < n - 1; i++)
+    	^
+  
+  task_clk.vcxproj -> F:\Intel_parallel_studio\projects\task_clk\x64\Release\task_clk.exe
