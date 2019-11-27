@@ -1,0 +1,6 @@
+﻿  task5.cpp
+F:\Intel_parallel_studio\projects\task5\task5\task5.cpp(91): warning #3947: "_Cilk_for" has been deprecated, and will be removed in a future release.  Please refer to release notes for details and recommended alternatives
+    		cilk_for (size_t i = 0; i < numb_rows; ++i)
+    		^
+  
+  task5.vcxproj -> F:\Intel_parallel_studio\projects\task5\x64\Release\task5.exe
