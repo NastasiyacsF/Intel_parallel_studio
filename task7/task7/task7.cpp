@@ -17,6 +17,8 @@ double par(void)
 	step = 1.0 / (double)num;
 	double t = omp_get_wtime();
 
+	omp_lock_t writelock;
+	omp_init_lock(&writelock);
 
 #pragma omp parallel num_threads(3)
 #pragma omp for reduction(+:S) private(x)
@@ -24,8 +26,9 @@ double par(void)
 	{
 		x = (i + 0.5)*step;
 		S = S + 4.0 / (1.0 + x * x);
-		#pragma omp critical
+		omp_set_lock(&writelock);
 		inc++;
+		omp_unset_lock(&writelock);
 	}
 	t = omp_get_wtime() - t;
 	pi = step * S;
