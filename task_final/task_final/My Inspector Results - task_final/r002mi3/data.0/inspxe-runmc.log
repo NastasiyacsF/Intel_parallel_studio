@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2019/12/27 00:11:46</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>marker-file</type>
+  <arg>F:\Intel_parallel_studio\projects\task_final\task_final\My Inspector Results - task_final\r002mi3\r002mi3.inspxe</arg>
+</msg>
+<msg id="4" tool="mc">
+  <type>EXEC_OF_INTEREST</type>
+  <arg>F:\Intel_parallel_studio\projects\task_final\x64\Debug\task_final.exe</arg>
+  <arg>2864</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:46 2019</timestamp>
+</msg>
+<msg id="5" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>F:\Intel_parallel_studio\projects\task_final\x64\Debug\task_final.exe</arg>
+  <arg>0x7ff7e5320000</arg>
+  <arg>0x7ff7e5372fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:46 2019</timestamp>
+</msg>
+<msg id="6" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>C:\Program Files (x86)\IntelSWTools\Inspector 2019\bin64\dnclrprof.dll</arg>
+  <arg>0x7ffd0b550000</arg>
+  <arg>0x7ffd0b59dfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:46 2019</timestamp>
+</msg>
+<msg id="7" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>C:\Windows\System32\ucrtbase.dll</arg>
+  <arg>0x7ffd30110000</arg>
+  <arg>0x7ffd30204fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:46 2019</timestamp>
+</msg>
+<msg id="8" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>C:\Windows\System32\gdi32full.dll</arg>
+  <arg>0x7ffd30210000</arg>
+  <arg>0x7ffd30391fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:46 2019</timestamp>
+</msg>
+<msg id="9" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>C:\Windows\System32\KERNELBASE.dll</arg>
+  <arg>0x7ffd306d0000</arg>
+  <arg>0x7ffd308ecfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:46 2019</timestamp>
+</msg>
+<msg id="10" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>C:\Windows\System32\win32u.dll</arg>
+  <arg>0x7ffd309a0000</arg>
+  <arg>0x7ffd309bdfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:46 2019</timestamp>
+</msg>
+<msg id="11" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>C:\Windows\System32\bcryptPrimitives.dll</arg>
+  <arg>0x7ffd310a0000</arg>
+  <arg>0x7ffd31109fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:46 2019</timestamp>
+</msg>
+<msg id="12" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>C:\Windows\System32\msvcrt.dll</arg>
+  <arg>0x7ffd31110000</arg>
+  <arg>0x7ffd311adfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:46 2019</timestamp>
+</msg>
+<msg id="13" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>C:\Windows\System32\IMM32.DLL</arg>
+  <arg>0x7ffd311d0000</arg>
+  <arg>0x7ffd311fdfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:46 2019</timestamp>
+</msg>
+<msg id="14" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>C:\Windows\System32\USER32.dll</arg>
+  <arg>0x7ffd31560000</arg>
+  <arg>0x7ffd316c4fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:46 2019</timestamp>
+</msg>
+<msg id="15" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>C:\Windows\System32\GDI32.dll</arg>
+  <arg>0x7ffd316d0000</arg>
+  <arg>0x7ffd31703fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:46 2019</timestamp>
+</msg>
+<msg id="16" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>C:\Windows\System32\combase.dll</arg>
+  <arg>0x7ffd31990000</arg>
+  <arg>0x7ffd31c56fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:46 2019</timestamp>
+</msg>
+<msg id="17" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>C:\Windows\System32\sechost.dll</arg>
+  <arg>0x7ffd32090000</arg>
+  <arg>0x7ffd320e8fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:46 2019</timestamp>
+</msg>
+<msg id="18" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>C:\Windows\System32\ADVAPI32.dll</arg>
+  <arg>0x7ffd320f0000</arg>
+  <arg>0x7ffd32191fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:47 2019</timestamp>
+</msg>
+<msg id="19" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>C:\Windows\System32\RPCRT4.dll</arg>
+  <arg>0x7ffd33720000</arg>
+  <arg>0x7ffd33840fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:47 2019</timestamp>
+</msg>
+<msg id="20" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>C:\Windows\System32\ole32.dll</arg>
+  <arg>0x7ffd338b0000</arg>
+  <arg>0x7ffd339e6fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:47 2019</timestamp>
+</msg>
+<msg id="21" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>C:\Windows\System32\KERNEL32.DLL</arg>
+  <arg>0x7ffd33a50000</arg>
+  <arg>0x7ffd33afafff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:47 2019</timestamp>
+</msg>
+<msg id="22" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>C:\Windows\SYSTEM32\ntdll.dll</arg>
+  <arg>0x7ffd33b80000</arg>
+  <arg>0x7ffd33d50fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:47 2019</timestamp>
+</msg>
+<msg id="23" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>C:\Windows\SYSTEM32\MSVCP140D.dll</arg>
+  <arg>0x7ffd0b3a0000</arg>
+  <arg>0x7ffd0b490fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:48 2019</timestamp>
+</msg>
+<msg id="24" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>C:\Windows\SYSTEM32\VCRUNTIME140D.dll</arg>
+  <arg>0x7ffd15c40000</arg>
+  <arg>0x7ffd15c61fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:48 2019</timestamp>
+</msg>
+<msg id="25" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019\windows\redist\intel64\compiler\libmmdd.dll</arg>
+  <arg>0x7ffd09aa0000</arg>
+  <arg>0x7ffd09ed8fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:48 2019</timestamp>
+</msg>
+<msg id="26" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll</arg>
+  <arg>0x7ffd09a40000</arg>
+  <arg>0x7ffd09a92fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:48 2019</timestamp>
+</msg>
+<msg id="27" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>C:\Windows\SYSTEM32\ucrtbased.dll</arg>
+  <arg>0x7ffd091c0000</arg>
+  <arg>0x7ffd09381fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:49 2019</timestamp>
+</msg>
+<msg id="28" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>C:\Program Files (x86)\IntelSWTools\Inspector 2019\bin64\runtime\libittnotify.dll</arg>
+  <arg>0x7ffd0b660000</arg>
+  <arg>0x7ffd0b692fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:51 2019</timestamp>
+</msg>
+<msg id="29" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>11556,5516,11300,6432</arg>
+  <arg>0,1,1,1</arg>
+  <arg>119267,923,2201,567</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:53 2019</timestamp>
+</msg>
+<msg id="30" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>11556,5516,11300,6432</arg>
+  <arg>0,1,1,1</arg>
+  <arg>3213,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:54 2019</timestamp>
+</msg>
+<msg id="31" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>11556,5516,11300,6432</arg>
+  <arg>0,1,1,1</arg>
+  <arg>1175085,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:55 2019</timestamp>
+</msg>
+<msg id="32" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>11556,5516,11300,6432</arg>
+  <arg>0,1,1,1</arg>
+  <arg>1616039,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:56 2019</timestamp>
+</msg>
+<msg id="33" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>11556,5516,11300,6432</arg>
+  <arg>0,1,1,1</arg>
+  <arg>1552184,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:57 2019</timestamp>
+</msg>
+<msg id="34" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>C:\Windows\System32\kernel.appcore.dll</arg>
+  <arg>0x7ffd300a0000</arg>
+  <arg>0x7ffd300aefff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:57 2019</timestamp>
+</msg>
+<msg id="35" tool="mc">
+  <type>PROCESS_COMPLETE</type>
+  <arg>F:\Intel_parallel_studio\projects\task_final\x64\Debug\task_final.exe</arg>
+  <arg>0</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="36" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>F:\Intel_parallel_studio\projects\task_final\x64\Debug\task_final.exe</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="37" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Program Files (x86)\IntelSWTools\Inspector 2019\bin64\dnclrprof.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="38" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\System32\ucrtbase.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="39" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\System32\gdi32full.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="40" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\System32\KERNELBASE.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="41" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\System32\win32u.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="42" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\System32\bcryptPrimitives.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="43" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\System32\msvcrt.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="44" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\System32\IMM32.DLL</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="45" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\System32\USER32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="46" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\System32\GDI32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="47" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\System32\combase.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="48" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\System32\sechost.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="49" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\System32\ADVAPI32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="50" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\System32\RPCRT4.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="51" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\System32\ole32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="52" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\System32\KERNEL32.DLL</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="53" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SYSTEM32\ntdll.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="54" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SYSTEM32\MSVCP140D.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="55" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SYSTEM32\VCRUNTIME140D.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="56" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019\windows\redist\intel64\compiler\libmmdd.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="57" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="58" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SYSTEM32\ucrtbased.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="59" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Program Files (x86)\IntelSWTools\Inspector 2019\bin64\runtime\libittnotify.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="60" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\System32\kernel.appcore.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="61" tool="mc">
+  <type>ANALYSIS_COMPLETE</type>
+  <arg>F:\Intel_parallel_studio\projects\task_final\x64\Debug\task_final.exe</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Dec 27 00:11:58 2019</timestamp>
+</msg>
+<msg id="62" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="63" tool="runtool">
+  <type>marker-file</type>
+  <arg>F:\Intel_parallel_studio\projects\task_final\task_final\My Inspector Results - task_final\r002mi3\r002mi3.inspxe</arg>
+</msg>
+<msg id="64" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="65" tool="runtool">
+  <type>log-end</type>
+  <arg>2019/12/27 00:12:03</arg>
+</msg>
+
+</log>
+

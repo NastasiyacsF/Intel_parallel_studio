@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="F:\Intel_parallel_studio\projects\task_final\task_final\task_final.cpp" md5="fd49d7d5d09ae103b57f00d8d6ad1b32">
+    <snippet line="25">
+      <line line="22">int main()</line>
+      <line line="23">{</line>
+      <line line="24">    setlocale(LC_ALL, "Rus");</line>
+      <line line="25"/>
+      <line line="26">    high_level_analysis main_object;</line>
+    </snippet>
+  </file>
+</snippets>

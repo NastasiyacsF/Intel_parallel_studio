@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<diags major="2" minor="0">
+
+<diag id="1">
+	<type>233</type>
+	<message>
+		<timestamp>1061480712</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>14044</threadid>
+			<stackstamp>1061504988</stackstamp>
+			<stacktrace>
+			<loc>
+			<mod>C:\Windows\SYSTEM32\ntdll.dll</mod>
+			<rva>0x29d9f</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="2">
+	<type>233</type>
+	<message>
+		<timestamp>3149260193</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>10716</threadid>
+			<stackstamp>3149285253</stackstamp>
+			<stacktrace>
+			<loc>
+			<mod>C:\Windows\SYSTEM32\ntdll.dll</mod>
+			<rva>0x32800</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="3">
+	<type>233</type>
+	<message>
+		<timestamp>3522636353</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>2004</threadid>
+			<stackstamp>3522646843</stackstamp>
+			<stacktrace>
+			<loc>
+			<mod>C:\Windows\SYSTEM32\ntdll.dll</mod>
+			<rva>0x32800</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="4">
+	<type>233</type>
+	<message>
+		<timestamp>3720662717</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>10172</threadid>
+			<stackstamp>3720673409</stackstamp>
+			<stacktrace>
+			<loc>
+			<mod>C:\Windows\SYSTEM32\ntdll.dll</mod>
+			<rva>0x32800</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="5">
+	<type>1003</type>
+	<message>
+		<timestamp>15643210903</timestamp>
+		<addr_arg>0x00000209a88bcec6</addr_arg>
+		<op_size>32</op_size>
+		<op_addr>0x00000209a88bcec0</op_addr>
+		<thread>
+			<thrname></thrname>
+			<threadid>14044</threadid>
+			<stackstamp>15643262719</stackstamp>
+			<stacktrace>
+			<loc>
+			<mod>C:\Windows\SYSTEM32\ucrtbased.dll</mod>
+			<rva>0xc306c</rva>
+			</loc>
+			<loc>
+			<mod>C:\Windows\SYSTEM32\ucrtbased.dll</mod>
+			<rva>0xc24d1</rva>
+			</loc>
+			<loc>
+			<mod>C:\Windows\SYSTEM32\ucrtbased.dll</mod>
+			<rva>0xc39b8</rva>
+			</loc>
+			<loc>
+			<mod>C:\Windows\SYSTEM32\ucrtbased.dll</mod>
+			<rva>0x62d32</rva>
+			</loc>
+			<loc>
+			<mod>C:\Windows\SYSTEM32\ucrtbased.dll</mod>
+			<rva>0x5fef1</rva>
+			</loc>
+			<loc>
+			<mod>C:\Windows\SYSTEM32\ucrtbased.dll</mod>
+			<rva>0x5fe2c</rva>
+			</loc>
+			<loc>
+			<mod>C:\Windows\SYSTEM32\ucrtbased.dll</mod>
+			<rva>0x6058e</rva>
+			</loc>
+			<loc>
+			<mod>C:\Windows\SYSTEM32\ucrtbased.dll</mod>
+			<rva>0x65129</rva>
+			</loc>
+			<loc>
+			<mod>C:\Windows\SYSTEM32\ucrtbased.dll</mod>
+			<rva>0x64b77</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+		<mess_addr>0x00000209a88bcec0</mess_addr>
+		<mess_offset>0</mess_offset>
+		<defined>
+			<thrname></thrname>
+			<size>6</size>
+			<threadid>14044</threadid>
+			<stackstamp>15623133576</stackstamp>
+			<stacktrace>
+			<loc>
+			<mod>C:\Windows\SYSTEM32\ucrtbased.dll</mod>
+			<rva>0x62d6a</rva>
+			</loc>
+			<loc>
+			<mod>C:\Windows\SYSTEM32\ucrtbased.dll</mod>
+			<rva>0x64e82</rva>
+			</loc>
+			<loc>
+			<mod>C:\Windows\SYSTEM32\ucrtbased.dll</mod>
+			<rva>0x64b77</rva>
+			</loc>
+			<loc>
+			<mod>C:\Windows\SYSTEM32\ucrtbased.dll</mod>
+			<rva>0x62b88</rva>
+			</loc>
+			<loc>
+			<mod>C:\Windows\SYSTEM32\ucrtbased.dll</mod>
+			<rva>0x62688</rva>
+			</loc>
+			<loc>
+			<mod>C:\Windows\SYSTEM32\ucrtbased.dll</mod>
+			<rva>0x627b5</rva>
+			</loc>
+			<loc>
+			<mod>C:\Windows\SYSTEM32\ucrtbased.dll</mod>
+			<rva>0x62ae1</rva>
+			</loc>
+			<loc>
+			<mod>C:\Windows\SYSTEM32\ucrtbased.dll</mod>
+			<rva>0x625e8</rva>
+			</loc>
+			<loc>
+			<mod>C:\Windows\SYSTEM32\ucrtbased.dll</mod>
+			<rva>0x62864</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="6">
+	<type>231</type>
+	<message>
+		<timestamp>27029317545</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>10716</threadid>
+			<stackstamp>27029328731</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="7">
+	<type>231</type>
+	<message>
+		<timestamp>27029594429</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>2004</threadid>
+			<stackstamp>27029613205</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="8">
+	<type>231</type>
+	<message>
+		<timestamp>27029873121</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>10172</threadid>
+			<stackstamp>27029980215</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="9">
+	<type>231</type>
+	<message>
+		<timestamp>29393038359</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>14044</threadid>
+			<stackstamp>29393048883</stackstamp>
+		</thread>
+	</message>
+</diag>
+</diags>

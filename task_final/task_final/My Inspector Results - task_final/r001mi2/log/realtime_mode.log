@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feedback>
+ <message severity="info">Analysis started...</message>
+ <nop/>
+ <message severity="info">Result file: F:\Intel_parallel_studio\projects\task_final\task_final\My Inspector Results - task_final\r001mi2\r001mi2.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis started for F:\Intel_parallel_studio\projects\task_final\x64\Debug\task_final.exe (pid = 10012) </message>
+ <nop/>
+ <message severity="info">Loaded module: F:\Intel_parallel_studio\projects\task_final\x64\Debug\task_final.exe, address range [0x7ff7e5320000-0x7ff7e5372fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Program Files (x86)\IntelSWTools\Inspector 2019\bin64\dnclrprof.dll, address range [0x7ffd0b3f0000-0x7ffd0b43dfff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\System32\ucrtbase.dll, address range [0x7ffd30110000-0x7ffd30204fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\System32\gdi32full.dll, address range [0x7ffd30210000-0x7ffd30391fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\System32\KERNELBASE.dll, address range [0x7ffd306d0000-0x7ffd308ecfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\System32\win32u.dll, address range [0x7ffd309a0000-0x7ffd309bdfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\System32\bcryptPrimitives.dll, address range [0x7ffd310a0000-0x7ffd31109fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\System32\msvcrt.dll, address range [0x7ffd31110000-0x7ffd311adfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\System32\IMM32.DLL, address range [0x7ffd311d0000-0x7ffd311fdfff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\System32\USER32.dll, address range [0x7ffd31560000-0x7ffd316c4fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\System32\GDI32.dll, address range [0x7ffd316d0000-0x7ffd31703fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\System32\combase.dll, address range [0x7ffd31990000-0x7ffd31c56fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\System32\sechost.dll, address range [0x7ffd32090000-0x7ffd320e8fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\System32\ADVAPI32.dll, address range [0x7ffd320f0000-0x7ffd32191fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\System32\RPCRT4.dll, address range [0x7ffd33720000-0x7ffd33840fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\System32\ole32.dll, address range [0x7ffd338b0000-0x7ffd339e6fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\System32\KERNEL32.DLL, address range [0x7ffd33a50000-0x7ffd33afafff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\SYSTEM32\ntdll.dll, address range [0x7ffd33b80000-0x7ffd33d50fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\SYSTEM32\MSVCP140D.dll, address range [0x7ffd09de0000-0x7ffd09ed0fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019\windows\redist\intel64\compiler\libmmdd.dll, address range [0x7ffd099a0000-0x7ffd09dd8fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\SYSTEM32\VCRUNTIME140D.dll, address range [0x7ffd15c40000-0x7ffd15c61fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll, address range [0x7ffd0b390000-0x7ffd0b3e2fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\SYSTEM32\ucrtbased.dll, address range [0x7ffd091c0000-0x7ffd09381fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Program Files (x86)\IntelSWTools\Inspector 2019\bin64\runtime\libittnotify.dll, address range [0x7ffd0b660000-0x7ffd0b692fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: C:\Windows\System32\kernel.appcore.dll, address range [0x7ffd300a0000-0x7ffd300aefff] </message>
+ <nop/>
+ <message severity="info">Process F:\Intel_parallel_studio\projects\task_final\x64\Debug\task_final.exe exited with code 0. Leak analysis starting. Please wait... </message>
+ <nop/>
+ <message severity="info">Unloaded module: F:\Intel_parallel_studio\projects\task_final\x64\Debug\task_final.exe </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Program Files (x86)\IntelSWTools\Inspector 2019\bin64\dnclrprof.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\System32\ucrtbase.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\System32\gdi32full.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\System32\KERNELBASE.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\System32\win32u.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\System32\bcryptPrimitives.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\System32\msvcrt.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\System32\IMM32.DLL </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\System32\USER32.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\System32\GDI32.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\System32\combase.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\System32\sechost.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\System32\ADVAPI32.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\System32\RPCRT4.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\System32\ole32.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\System32\KERNEL32.DLL </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SYSTEM32\ntdll.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SYSTEM32\MSVCP140D.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019\windows\redist\intel64\compiler\libmmdd.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SYSTEM32\VCRUNTIME140D.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SYSTEM32\ucrtbased.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Program Files (x86)\IntelSWTools\Inspector 2019\bin64\runtime\libittnotify.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\System32\kernel.appcore.dll </message>
+ <nop/>
+ <message severity="info">Completed analysis for F:\Intel_parallel_studio\projects\task_final\x64\Debug\task_final.exe </message>
+ <nop/>
+ <message severity="info">Application exit code: 0 </message>
+ <nop/>
+ <message severity="info">Result file: F:\Intel_parallel_studio\projects\task_final\task_final\My Inspector Results - task_final\r001mi2\r001mi2.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis completed</message>
+ <nop/>
+</feedback>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019\windows\compiler\include\cilk\reducer.h" md5="b225fd33957de718e3041d020353ee75">
+    <snippet line="201">
+      <line line="198">     *  @return     An untyped pointer to the allocated memory.</line>
+      <line line="199">     */</line>
+      <line line="200">    void* allocate(size_t s) const { return operator new(s); }</line>
+      <line line="201"/>
+      <line line="202">    /** Deallocates raw memory pointed to by @a p</line>
+    </snippet>
+  </file>
+  <file name="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\list" md5="a8f75c6b63d76728ba402a3fc633c9de">
+    <snippet line="953">
+      <line line="950">        _Incsize(1);</line>
+      <line line="951">        _Rightnode-&gt;_Prev = _Newnode;</line>
+      <line line="952">        _Leftnode-&gt;_Next = _Newnode;</line>
+      <line line="953">        }</line>
+      <line line="954"/>
+    </snippet>
+    <snippet line="1007">
+      <line line="1004">    _NODISCARD iterator begin() noexcept</line>
+      <line line="1005">        {    // return iterator for beginning of mutable sequence</line>
+      <line line="1006">        return (iterator(this-&gt;_Myhead()-&gt;_Next, _STD addressof(this-&gt;_Get_data())));</line>
+      <line line="1007">        }</line>
+      <line line="1008"/>
+    </snippet>
+    <snippet line="1125">
+      <line line="1122">    _NODISCARD size_type size() const noexcept</line>
+      <line line="1123">        {    // return length of sequence</line>
+      <line line="1124">        return (this-&gt;_Mysize());</line>
+      <line line="1125">        }</line>
+      <line line="1126"/>
+    </snippet>
+    <snippet line="1712">
+      <line line="1709">                    *_Pnext = (const_iterator *)_Iter._Mynextiter;</line>
+      <line line="1710">                    _Iter._Myproxy = this-&gt;_Myproxy();</line>
+      <line line="1711">                    _Iter._Mynextiter = this-&gt;_Myproxy()-&gt;_Myfirstiter;</line>
+      <line line="1712">                    this-&gt;_Myproxy()-&gt;_Myfirstiter = _STD addressof(_Iter);</line>
+      <line line="1713">                    }</line>
+    </snippet>
+    <snippet line="1749">
+      <line line="1746"/>
+      <line line="1747">        _First._Ptr-&gt;_Prev-&gt;_Next = _Last._Ptr;</line>
+      <line line="1748">        _Last._Ptr-&gt;_Prev-&gt;_Next = _Where._Ptr;</line>
+      <line line="1749">        _Where._Ptr-&gt;_Prev-&gt;_Next = _First._Ptr;</line>
+      <line line="1750"/>
+    </snippet>
+    <snippet line="1799">
+      <line line="1796">        if (max_size() - this-&gt;_Mysize() - 1 &lt; _Count)</line>
+      <line line="1797">            _Xlength_error("list&lt;T&gt; too long");</line>
+      <line line="1798">        this-&gt;_Mysize() += _Count;</line>
+      <line line="1799">        }</line>
+      <line line="1800"/>
+    </snippet>
+  </file>
+  <file name="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xutility" md5="a162beaac17f997b0c72afdad71f40d6">
+    <snippet line="200">
+      <line line="197"/>
+      <line line="198">            _STL_VERIFY(*_Pnext, "ITERATOR LIST CORRUPTED!");</line>
+      <line line="199">            *_Pnext = _Mynextiter;</line>
+      <line line="200">            _Myproxy = nullptr;</line>
+      <line line="201">            }</line>
+    </snippet>
+    <snippet line="236">
+      <line line="233">    _Container_proxy *_Temp = _Myproxy;</line>
+      <line line="234">    _Myproxy = _Right._Myproxy;</line>
+      <line line="235">    _Right._Myproxy = _Temp;</line>
+      <line line="236"/>
+      <line line="237">    if (_Myproxy != nullptr)</line>
+    </snippet>
+  </file>
+</snippets>

@@ -1,0 +1,16 @@
+﻿  Fragmentation.cpp
+f:\intel_parallel_studio\projects\task_final\task_final\fragmentation.cpp(129): warning C4018: <: несоответствие типов со знаком и без знака
+f:\intel_parallel_studio\projects\task_final\task_final\fragmentation.cpp(186): error C2275: Box: недопустимое использование этого типа в качестве выражения
+  f:\intel_parallel_studio\projects\task_final\task_final\box.h(4): note:  см. объявление "Box"
+f:\intel_parallel_studio\projects\task_final\task_final\fragmentation.cpp(186): error C2143: синтаксическая ошибка: отсутствие ";" перед ":"
+f:\intel_parallel_studio\projects\task_final\task_final\fragmentation.cpp(186): error C2059: синтаксическая ошибка: :
+f:\intel_parallel_studio\projects\task_final\task_final\fragmentation.cpp(186): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+f:\intel_parallel_studio\projects\task_final\task_final\fragmentation.cpp(190): error C2601: high_level_analysis::GetMinMax: недопустимые локальные определения функций
+  f:\intel_parallel_studio\projects\task_final\task_final\fragmentation.cpp(148): note: эта строка содержит скобку "{", которая пока не имеет парной
+f:\intel_parallel_studio\projects\task_final\task_final\fragmentation.cpp(263): error C2601: high_level_analysis::GetSolution: недопустимые локальные определения функций
+  f:\intel_parallel_studio\projects\task_final\task_final\fragmentation.cpp(148): note: эта строка содержит скобку "{", которая пока не имеет парной
+f:\intel_parallel_studio\projects\task_final\task_final\fragmentation.cpp(270): error C2601: WriteResults: недопустимые локальные определения функций
+  f:\intel_parallel_studio\projects\task_final\task_final\fragmentation.cpp(148): note: эта строка содержит скобку "{", которая пока не имеет парной
+f:\intel_parallel_studio\projects\task_final\task_final\fragmentation.cpp(148): fatal error C1075: "{": не найдена несоответствующая лексема
+  task_final.cpp
+  Создание кода...

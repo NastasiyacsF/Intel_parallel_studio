@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019\windows\compiler\include\cilk\reducer_vector.h" md5="dc26fee7048ef49668b7d3909d99aef0">
+    <snippet line="379">
+      <line line="376">    void push_back(const Type x)</line>
+      <line line="377">    {</line>
+      <line line="378">        m_vector.push_back(x);</line>
+      <line line="379">    }</line>
+      <line line="380"/>
+    </snippet>
+    <snippet line="474">
+      <line line="471">    static void construct(op_vector* monoid, view_type* view)</line>
+      <line line="472">    {</line>
+      <line line="473">        view_guard vg( new((void*) view) view_type() );</line>
+      <line line="474">        vg.confirm_if( new((void*) monoid) op_vector(view-&gt;get_allocator()) ); </line>
+      <line line="475">    }</line>
+    </snippet>
+  </file>
+  <file name="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\xmemory0" md5="2f06c6e0d742f7f7636dc47e843a3e4d">
+    <snippet line="880">
+      <line line="877">        static void construct(_Alloc&amp;, _Objty * const _Ptr, _Types&amp;&amp;... _Args)</line>
+      <line line="878">        {    // construct _Objty(_Types...) at _Ptr</line>
+      <line line="879">        ::new (const_cast&lt;void *&gt;(static_cast&lt;const volatile void *&gt;(_Ptr)))</line>
+      <line line="880">            _Objty(_STD forward&lt;_Types&gt;(_Args)...);</line>
+      <line line="881">        }</line>
+    </snippet>
+  </file>
+</snippets>

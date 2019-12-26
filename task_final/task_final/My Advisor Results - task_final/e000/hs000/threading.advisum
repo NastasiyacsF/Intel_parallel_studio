@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="F:\Intel_parallel_studio\projects\task_final\task_final\Fragmentation.cpp"
+           line_no="285"
+           routine="high_level_analysis::GetSolution"
+           is_vectorized="0"
+           self_time="0.000000E+000"
+           total_time="2.400018E-003"
+           trip_counts=""
+           func_instance="5"
+           priority="0"/>
+  <hotspot filename="F:\Intel_parallel_studio\projects\task_final\task_final\Fragmentation.cpp"
+           line_no="281"
+           routine="high_level_analysis::GetSolution"
+           is_vectorized="0"
+           self_time="0.000000E+000"
+           total_time="2.400018E-003"
+           trip_counts=""
+           func_instance="7"
+           priority="0"/>
+</IntelParallelAdvisorSummary >

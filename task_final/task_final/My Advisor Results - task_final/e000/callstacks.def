@@ -1,0 +1,27 @@
+# callstacks file version: 5
+#    rowid	    parent	       rva	 loop	 system	                                function	binary	instance_start_rva	instance_size	instance_end_rva	finst_rowid	roi	is_inlined
+         1	        -1	     33000	    0	      0	                          mainCRTStartup	F:\Intel_parallel_studio\projects\task_final\x64\Release\task_final.exe	33000	18	0	1	0	0
+         2	        -1	    417424	    0	      1	                      RtlUserThreadStart	C:\Windows\SYSTEM32\ntdll.dll	417392	72	0	11	0	0
+         3	         2	     33635	    0	      1	                     BaseThreadInitThunk	C:\Windows\System32\KERNEL32.DLL	33616	55	0	2	0	0
+         4	         3	     32887	    0	      0	                   _scrt_common_main_seh	F:\Intel_parallel_studio\projects\task_final\x64\Release\task_final.exe	32620	380	0	3	0	0
+         5	         4	      4272	    0	      0	                                    main	F:\Intel_parallel_studio\projects\task_final\x64\Release\task_final.exe	4096	487	0	4	0	0
+         6	        23	      5305	    1	      0	[Loop at line 285 in high_level_analysis::GetSolution]	F:\Intel_parallel_studio\projects\task_final\x64\Release\task_final.exe	5204	99	5241	5	0	0
+         7	         6	     10049	    0	      0	     low_level_fragmentation::GetBoxType	F:\Intel_parallel_studio\projects\task_final\x64\Release\task_final.exe	9716	574	0	8	0	0
+         8	         7	     14776	    0	      0	    low_level_fragmentation::GetNewBoxes	F:\Intel_parallel_studio\projects\task_final\x64\Release\task_final.exe	14724	170	0	9	0	0
+         9	         8	     14931	    0	      0	                     Box::GetWidhtHeight	F:\Intel_parallel_studio\projects\task_final\x64\Release\task_final.exe	14896	62	0	10	0	0
+        10	         6	      9867	    0	      0	     low_level_fragmentation::GetBoxType	F:\Intel_parallel_studio\projects\task_final\x64\Release\task_final.exe	9716	574	0	8	0	0
+        11	        10	     21271	    0	      0	          high_level_analysis::GetMinMax	F:\Intel_parallel_studio\projects\task_final\x64\Release\task_final.exe	17740	3770	0	12	0	0
+        12	        11	     25299	    0	      0	std::vector<double,class std::allocator<double> >::operator=	F:\Intel_parallel_studio\projects\task_final\x64\Release\task_final.exe	25152	158	0	13	0	0
+        13	        12	     25418	    0	      0	std::vector<double, std::allocator<double> >::assign	F:\Intel_parallel_studio\projects\task_final\x64\Release\task_final.exe	25312	118	0	14	0	0
+        14	        13	     25586	    0	      0	std::vector<double, std::allocator<double> >::_Assign_range	F:\Intel_parallel_studio\projects\task_final\x64\Release\task_final.exe	25432	1158	0	15	0	0
+        15	        14	     22014	    0	      0	std::vector<double,class std::allocator<double> >::capacity	F:\Intel_parallel_studio\projects\task_final\x64\Release\task_final.exe	21960	82	0	16	0	0
+        16	         3	     32990	    0	      0	                   _scrt_common_main_seh	F:\Intel_parallel_studio\projects\task_final\x64\Release\task_final.exe	32620	380	0	3	0	0
+        17	        16	     26846	    0	      1	                                    exit	C:\Windows\System32\ucrtbase.dll	26720	137	0	18	0	0
+        18	        17	     26907	    0	      1	                        func@0x1800068f0	C:\Windows\System32\ucrtbase.dll	26864	94	0	19	0	0
+        19	        18	     77843	    0	      1	                        func@0x180012fa0	C:\Windows\System32\ucrtbase.dll	77728	187	0	20	0	0
+        20	        19	     77997	    0	      1	                        func@0x180013064	C:\Windows\System32\ucrtbase.dll	77924	158	0	21	0	0
+        21	        20	    182448	    0	      1	                          LoadLibraryExW	C:\Windows\System32\KERNELBASE.dll	182448	425	0	17	0	0
+        22	         5	      5084	    0	      0	        high_level_analysis::GetSolution	F:\Intel_parallel_studio\projects\task_final\x64\Release\task_final.exe	4700	848	0	6	0	0
+        23	        22	      5204	    1	      0	[Loop at line 281 in high_level_analysis::GetSolution]	F:\Intel_parallel_studio\projects\task_final\x64\Release\task_final.exe	5084	219	5099	7	0	0
+        24	         5	      5305	    0	      0	        high_level_analysis::GetSolution	F:\Intel_parallel_studio\projects\task_final\x64\Release\task_final.exe	4700	848	0	6	0	0
+        25	        -1	         0	    0	      0	                [Unknown stack frame(s)]	n/a	0	1	0	23	0	0
